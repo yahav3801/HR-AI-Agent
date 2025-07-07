@@ -1,0 +1,33 @@
+{
+  "name": "ai_agent_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node index.ts",
+    "seed": "npx ts-node seed-database.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.23",
+    "@langchain/core": "^0.3.61",
+    "@langchain/langgraph": "^0.3.5",
+    "@langchain/langgraph-checkpoint-mongodb": "^0.0.6",
+    "@langchain/mongodb": "^0.1.0",
+    "@types/cors": "^2.8.19",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.29",
+    "mongodb": "^6.17.0",
+    "zod": "^3.25.67"
+  }
+}
