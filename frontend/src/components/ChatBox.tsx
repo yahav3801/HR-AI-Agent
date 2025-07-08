@@ -83,7 +83,7 @@ const ChatBox = ({
   };
 
   return (
-    <main className="flex flex-col w-full max-w-2xl mx-auto h-96 bg-stone-50 shadow-xl border border-gray-200 rounded-2xl">
+    <main className="flex flex-col md:w-[600px] w-full max-w-2xl mx-auto md:h-[80vh] h-96 bg-stone-50 shadow-xl border border-gray-200 rounded-2xl">
       <header className="rounded-t-2xl bg-neutral-800 shadow-md text-white font-bold border-b border-gray-200">
         <div className="flex justify-between items-center p-4">
           <h3>HR AI Agent</h3>
